@@ -1,2 +1,2 @@
-# Track-Nuclear-to-Cytoplasm-Ratio-2Color
-Code to monitor the ratio of nuclear to cytoplasmic signal in cells expressing two proteins, one of which marks the nucleus (such as H2B).
+# Track-Nuclear-to-Cytoplasm-Ratio
+Code to monitor the ratio of nuclear to cytoplasmic signal in cells imaged through time. The code assumes that the nucleus is detectable in at least one channel. We typically use this code to assess the quality of new mintbodies that bind to modified histones. The sample code demonstrates this analyzing movies of cells expressing a mintbody that binds to H3K27ac. Upon treatment with TSA to inhibit deacetylation, H3K27ac levels in the nucleus go up, causing the anti-H3K27ac mintbody signal in the nucleus to also go up (while the signal in the cytoplasm drops).   
